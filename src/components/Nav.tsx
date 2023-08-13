@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
+
+
 const Nav = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
@@ -23,7 +25,7 @@ const Nav = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-12 w-12 hover:animate-spin"
-                src="src/assets/ducky.svg"
+                src="/assets/ducky.svg"
                 alt="Workflow logo"
               />
             </div>
@@ -65,7 +67,7 @@ const Nav = () => {
                     onClick={() => setShowProfileMenu(!showProfileMenu)}
                   >
                     <span className="sr-only">Open user menu</span>
-                    <img className="h-12 w-12 rounded-full hover:animate-spin" src="src/assets/nateavi.png" alt="" />
+                    <img className="h-12 w-12 rounded-full hover:animate-spin" src="/assets/nateavi.png" alt="" />
                   </button>
                 </div>
                 {/*  
@@ -172,7 +174,7 @@ const Nav = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-10 w-10 rounded-full"
-                src="src/assets/nateavi.png"
+                src="/assets/nateavi.png"
                 alt=""
               />
             </div>

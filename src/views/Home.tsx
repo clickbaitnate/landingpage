@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 
+
 const Home = () => {
   return (
     <React.Fragment>
@@ -10,7 +11,7 @@ const Home = () => {
           <h1 className="text-2xl md:text-3xl font-semibold mb-4">Welcome to my personal landing page!</h1>
           
           <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <img src="src/assets/nateavi.png" alt="Cartoon of Me" className="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-md" />
+            <img src="/assets/nateavi.png" alt="Cartoon of Me" className="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-md" />
 
             <div className="flex-1">
               <p className="text-lg md:text-xl leading-relaxed">
