@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header'
 
+import me from '/assets/me.jpg'
+
 const About = () => {
   return (
     <React.Fragment>
@@ -21,7 +23,7 @@ const About = () => {
               </p>
             </div>
 
-            <img src="/assets/me.jpg" alt="Cartoon of Me" className="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-md" />
+            <img src={me} alt="Cartoon of Me" className="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-md" />
           </div>
         </div>
       </main>

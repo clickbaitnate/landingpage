@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 
+import tarot from '/assets/tarot.png';
+import astrology from '/assets/astrology.png';
+
 const Projects = () => {
   return (
     <React.Fragment>
@@ -11,7 +14,7 @@ const Projects = () => {
           {/* First Card */}
           <div className="my-2 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <img src="/assets/tarot.png" alt="ai tarot cards" className="block h-auto w-full max-w-md mx-auto"></img>
+              <img src={tarot} alt="ai tarot cards" className="block h-auto w-full max-w-md mx-auto"></img>
               <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                 <h1 className="text-lg md:text-xl">
                   Psychic GPT
@@ -30,7 +33,7 @@ const Projects = () => {
           {/* Second Card */}
           <div className="my-2 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/2">
             <article className="overflow-hidden rounded-lg shadow-lg">
-              <img src="/assets/astrology.png" alt="ai astrology wheel" className="block h-auto w-full max-w-md mx-auto"></img>
+              <img src={astrology} alt="ai astrology wheel" className="block h-auto w-full max-w-md mx-auto"></img>
               <header className="flex items-center justify-between leading-tight p-2 md:p-4">
                 <h1 className="text-lg md:text-xl">
                   AI-Strology

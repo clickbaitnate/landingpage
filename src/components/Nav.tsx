@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-
+import ducky from '/assets/ducky.svg';
+import nateavi from '/assets/nateavi.png';
 
 const Nav = () => {
   const [showProfileMenu, setShowProfileMenu] = useState(false)
@@ -25,7 +26,7 @@ const Nav = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-12 w-12 hover:animate-spin"
-                src="/assets/ducky.svg"
+                src={ducky}
                 alt="Workflow logo"
               />
             </div>
@@ -67,7 +68,7 @@ const Nav = () => {
                     onClick={() => setShowProfileMenu(!showProfileMenu)}
                   >
                     <span className="sr-only">Open user menu</span>
-                    <img className="h-12 w-12 rounded-full hover:animate-spin" src="/assets/nateavi.png" alt="" />
+                    <img className="h-12 w-12 rounded-full hover:animate-spin" src={nateavi} alt="" />
                   </button>
                 </div>
                 {/*  
