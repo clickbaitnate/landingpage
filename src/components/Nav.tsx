@@ -175,7 +175,7 @@ const Nav = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-10 w-10 rounded-full"
-                src="/assets/nateavi.png"
+                src={nateavi}
                 alt=""
               />
             </div>
